@@ -272,6 +272,7 @@ class WidgetMap extends Field
                 'clustering'   => self::getClustering(),
                 'layers'       => $this->getLayers(),
                 'zoom'         => $this->getZoom(),
+                'center'       => $this->getCenter(),
                 'controls'     => $this->getMapControls(false),
                 'markerAction' => $this->getMarkerAction() ? 'markerAction' : null,
                 'fit'          => $this->getFitToBounds(),
